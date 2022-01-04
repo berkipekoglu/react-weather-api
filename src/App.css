@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Inconsolata', monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #e5e6e9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.loading {
+  color: #191c24;
+  
+}
+
+.select-container {
+  width: 100%;
+}
+
+.select-country {
+  background-color: rgb(58, 106, 133);
+  padding: 10px 20px;
+  width: 50%;
+  color:white;
+  margin: 10px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.select-country:focus {
+  outline: none;
+  border-radius: 7px;
+  border:0;
+}
+
+.container {
+  width: 50%;
+  height: auto;
+  background-color: #191c24;
+  border-radius: 7px;
+  display:flex-column;
+}
+
+.country-name {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.degree {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  justify-items: flex-start;
+  width: 100%;
+  margin-left: 30px;
+}
+
+.degree > .big-degree {
+  display: block;
+  font-size: 5rem;
+  width: 100%;
+  text-align: left;
+}
+
+.degree > .svgs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+svg {
+  width: 20px;
+  align-items: center;
+}
+
+.weather-title {
+  display:block;
+  text-align: left;
+  margin-left: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.weather-feel {
+  display:block;
+  text-align: left;
+  margin-left: 30px;
+  font-weight: 300;
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.weather-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  gap: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.order {
+  padding: 10px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.weather-info-title {
+  font-size: 15pt;
+  color:rgb(153, 153, 153);
+}
+
+.weather-point {
+  font-size: 25pt;
+}
+
+.weather-point-title {
+  font-size: 13pt;
+  letter-spacing: 1px;
+  margin-left: 5px;
+  color:rgb(214, 214, 214);
+}
+
